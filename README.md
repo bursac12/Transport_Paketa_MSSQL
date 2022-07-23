@@ -33,9 +33,9 @@ paketa i potrošnje goriva prilikom te vožnje (cena goriva: “plin” - 15/lit
 CenaJedneIsporuke= (OSNOVNA_CENA[i] + (TEŽINSKI_FAKTOR[i] * weight) * CENA_PO_KG[i] ) * euklidska_distanca
 
                   Pismo Standardno Lomljivo                  
-Početna cena      10        25       75
-Težinski faktor    0         1        2
-Cena po KG         /        100      300
+  Početna cena      10        25       75
+  Težinski faktor    0         1        2
+  Cena po KG         /        100      300
 
 Poželjno je da onde gde je to moguće referencijalni integriteti budu: ON UPDATE CASCADE,
 ON DELETE NO ACTION. Iz tog razloga, metoda koja briše određeni red iz tabele ne treba da briše i
